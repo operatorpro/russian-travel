@@ -1,0 +1,14 @@
+.cover__text {
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (max-width: 719px) {
+    .cover__text {
+        max-width: 288px;
+    }
+}
